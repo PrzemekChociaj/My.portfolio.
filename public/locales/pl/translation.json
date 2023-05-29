@@ -1,0 +1,92 @@
+{
+    "Greeting": {
+        "1":  "Cześć! Nazywam się"
+    },
+    "Name": {
+"1": "Przemysław Chociaj"
+
+    },
+
+    "Introduction": {
+        "1": "Jestem początkującym JavaScript Developerem."
+
+    },
+
+    "Specialization": {
+        "1": 
+       " Jako początkujący front-end developer specjalizuję się w tworzeniu responsywnych stron internetowych przy użyciu React.js. Tworze dynamiczne i użytkownikowi przyjazne interfejsy. Posiadam solidne podstawy w zakresie HTML, CSS i JavaScript, jednocześnie stale poszerzam swoją wiedzę i umiejętności w świecie tworzenia stron internetowych. Cenię sobie pracę w zespołach, a także chętnie podejmuję nowe wyzwania, które pozwolą mi rozwijać moje umiejętności."
+    },
+
+    "Projects": {
+
+        "1": "Projekty"
+        },
+        
+        
+
+        "About" : {
+
+            "1": "O mnie"
+        },
+
+        "secondIntroduction": {
+            "1": "Cześć! Jestem Przemek"
+        },
+
+        "Testimonials": {
+            "1": "Referencje"
+        },
+
+        "Testimonial" :{
+            "1": "Co inni ludzie mówią:"
+        
+        },
+  
+
+    "Home" :{
+        "1": "Strona Główna"
+
+
+    },
+    "Check": {
+        "1": "Sprawdź moje projekty:"
+    },
+
+    "Skills" :{
+        "1": "Umiejętności"
+
+
+    },
+
+
+    "Contact" :{
+        "1": "Kontakt"
+
+
+    },
+
+
+    "AboutMe" :{
+
+  "1": "Mam 26 lat. Ukończyłem Technikum Informatyczne SCI w Szczecinie. Po zdobyciu tytułu licencjata na Uniwersytecie Szczecińskim stwierdziłem, że kontynuowanie swojej drogi zawodowej w tym kierunku nie ma dalszego sensu, więc postanowiłem wrócić do mojego hobby - programowania. Od lipca 2022 roku poświęciłem swój wolny czas na nauke Javascriptu oraz Reacta. Ukończyłem kurs na Udemy oraz stworzyłem pare projektów, które zaprezentuje poniżej. Interesuję się ogólnopojętym sportem oraz muzyką. Jedną z moich pasji jest produkcja podkładów muzycznych. Chociaż nie mam jeszcze doswiadczenia w branży, jestem zmotywowany do nauki i rozwoju swoich umiejętności. Nie boję się wyzwań i z chęcia podejmę się nowych projektów, aby zdobyć praktyczne doświadczenie. Jestem otwarty na feedback i skłonny do pracy w zespole."
+    
+    },
+
+    "SkillsIntro": {
+        "1": "Do swoich projektów wykorzystywałem:"
+    },
+
+    "Mark": {
+        "1": "tralaladasdsad"
+    },
+
+
+    "Form": {
+        "1": "Napisz do mnie tutaj lub na przemyslawchociaj@gmail.com"
+    },
+
+    "Submit": {
+
+        "1": "Wyślij"
+    }
+}

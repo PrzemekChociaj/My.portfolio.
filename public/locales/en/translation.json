@@ -1,0 +1,99 @@
+{
+    "Greeting": {
+        "1":  "Hi! My name is"
+    },
+    "Name": {
+"1": "Przemysław Chociaj"
+
+    },
+
+    "Introduction": {
+        "1": "I'am beginner React JavaScript Developer."
+
+    },
+
+    "Specialization": {
+        "1": 
+       " As a budding front-end developer, I specialize in crafting responsive websites using React.js. My passion lies in creating dynamic and user-friendly interfaces that deliver seamless user experiences. With a solid foundation in HTML, CSS, and JavaScript, I am continuously expanding my knowledge and skills in the ever-evolving field of web development. I thrive in collaborative environments and eagerly embrace new challenges to enhance my expertise."
+    },
+
+
+"Projects": {
+
+"1": "Projects"
+},
+
+"Testimonials": {
+    "1": "Testimonials"
+},
+       
+
+"About" : {
+
+    "1": "About"
+},
+
+"secondIntroduction": {
+    "1": "Hi, Im Przemek!"
+},
+
+
+
+"Home" :{
+"1": "Home"
+
+
+},
+
+
+"Skills" :{
+"1": "Skills"
+
+
+},
+
+
+"Contact" :{
+"1": "Contact"
+
+
+},
+
+"AboutMe": {
+
+    "1": "I am 26 years old. I graduated from the SCI Technical School of IT in Szczecin. after obtaining a bachelor's degree at the University of Szczecin in the field of Internal Security I found that the continuation of my career path in this direction does not make any sense, so I decided to return to my hobby - programming. From July In 2022, I devoted my free time to learning Javascript and React. I completed a course on Udemy and created a few projects which I will present below. My other hobbies are: sports and music. One of my passions is music production. Although I don't have experience in the industry yet, I am motivated to learn and develop my skills. Im not afraid of any challenges and I will gladly take on new projects to gain practical experience. I am open to feedback and inclined to work in a team."
+
+},
+
+"Mark": {
+    "1": "tralala"
+},
+
+"SkillsIntro": {
+    "1": "To my projects i used:"
+},
+
+"Form": {
+    "1": "Contact with me via form below or via email  przemyslawchociaj@gmail.com"
+},
+
+"Check": {
+    "1": "Check out my projects:"
+},
+
+"Testimonial" :{
+    "1": "What other people say:"
+
+},
+    
+
+"Submit": {
+
+    "1": "Submit"
+}
+
+}
+
+
+
+

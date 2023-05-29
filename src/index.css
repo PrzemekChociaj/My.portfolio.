@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Noto+Serif+Tamil:wght@100&family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+	html {
+    scroll-behavior: smooth;
+  }
+	.cursor {
+		
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		border-radius: 16px;
+		background-color: rgb(255, 255, 255);
+		mix-blend-mode: difference;
+		z-index:initial;
+	}
+
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+	li {
+		@apply px-4;
+		@apply cursor-pointer;
+	}
+}
+
+.content-div {
+	background-repeat: no-repeat;
+}
+
+.content-div:hover {
+	background-image: linear-gradient(to right, rgba(112, 157, 255, 0.8)hsla(242, 74%, 61%))
+	hsla(242, 74%, 61%)
+}
+
+
+@layer utilities {
+
+	
+	.btn {
+	  @apply py-2 px-9 border-2 rounded-md
+	   border-dark_primary rounded-br-3xl font-medium;
+	}
+
+
+
+	.swiper-pagination-bullet-active {
+		@apply background-color: #ffff !important;
+   }
+
+}
