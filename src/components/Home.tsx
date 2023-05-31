@@ -17,7 +17,10 @@ const Home = () => {
 	const navigate = useNavigate();
 
 	const handleClick = () => {
-		navigate('/Projects');
+		const element = document.getElementById('work');
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		}
 	};
 
 	const [text] = useTypewriter({
