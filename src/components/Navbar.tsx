@@ -46,7 +46,7 @@ const Navbar = () => {
 				Przemysław Chociaj
 			</div>
 
-			<div className=' text-[#ffffff]   p-3 font-bold  inline border-b-2 border-[#FF2E63]  '>
+			<div className=' text-[#ffffff]   p-3 font-bold '>
 				<ul className='hidden md:flex '>
 					<li className='hover:text-[#FF2E63] duration-300 '>
 						<Link to='home' smooth={true} duration={500}>

@@ -8,32 +8,36 @@ import Skills from './components/Skills';
 import { useEffect, useMemo, useState } from 'react';
 import Work from './components/Work';
 import { Route, Routes } from 'react-router-dom';
-import Projects from './components/Projects';
 import HomeSite from './components/HomeSite';
 import AnimCursor from './components/AnimCursor';
-import ProjectsComponent from './components/Projects';
+import Projects from './components/Projects';
 import { ParallaxProvider } from 'react-scroll-parallax';
-
+import { Pomodoro, Portfolio } from './assets/data';
+import { MusicShop } from './assets/data';
+import { pomodoroDesc } from './assets/data';
+import { musicShopDesc } from './assets/data';
+import { portfolioDesc } from './assets/data';
 
 function App() {
-
-
-
 	return (
-<ParallaxProvider>
 		<Routes>
-
-
-		
-		
-		<Route path='/' element={<HomeSite />}></Route>
-		<Route path='/projects' element={<ProjectsComponent />}></Route>
-			
-			
-			
-	
+			<Route path='/' element={<HomeSite />}></Route>
+			<Route
+				path='/Pomodoro'
+				element={
+					<Projects array={Pomodoro} title='Pomodoro' desc={pomodoroDesc} />
+				}></Route>
+			<Route
+				path='/MusicShop'
+				element={
+					<Projects array={MusicShop} title='Music Shop' desc={musicShopDesc} />
+				}></Route>
+			<Route
+				path='/Portfolio'
+				element={
+					<Projects array={Portfolio} title='Portfolio' desc={portfolioDesc} />
+				}></Route>
 		</Routes>
-		</ParallaxProvider>
 	);
 }
 

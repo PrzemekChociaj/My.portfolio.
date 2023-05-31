@@ -29,7 +29,7 @@ const About = () => {
 								initial={{ opacity: 0, x: -600 }}
 								whileInView={{ opacity: 1, x: 0 }}
 								transition={{ delay: 0.4, duration: 1 }}
-								className='max-w-[240px] relative top-5   left-52 border-2 rounded-full    border-solid '
+								className='max-w-[240px] relative top-5  sm:left-24 lg:left-52 border-2 rounded-full    border-solid '
 								src={Profilowe}
 								alt=''
 							/>
