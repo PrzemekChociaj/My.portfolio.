@@ -10,6 +10,7 @@ import { projects } from '../assets/data';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import { SwiperSlide } from 'swiper/react';
+import i18next from 'i18next';
 
 const slides = [
 	{
@@ -50,17 +51,18 @@ const Projects = ({ array, title, desc }) => {
 		setCurrentIndex(slideIndex);
 	};
 
+
+
 	return (
 		<>
 			<AnimCursor />
 			<ProjectsNavbar />
 			<div className='bg-[#252A34] h-full grid grid-col-2 w-full gap-1 justify-center'>
 				<div className='mt-32  text-white text-center '>
-					<h1 className='  inline border-b-2 border-[#FF2E63] text-center lg:text-4xl '>
-						
+					<h1 className='  inline border-b-2 border-[#FF2E63] text-center sm:text-5xl lg:text-3xl '>
 						{title}
 					</h1>
-					<p className='mt-12 max-w-[1000px] mx-auto lg:text-lg sm:text-md '>
+					<p className='mt-12 opacity-80 max-w-[1000px] mx-auto lg:text-lg sm:text-md '>
 						{desc}
 					</p>
 				</div>
@@ -68,11 +70,11 @@ const Projects = ({ array, title, desc }) => {
 					<div
 						style={{ backgroundImage: `url(${array[currentIndex].url})` }}
 						className='w-full h-full rounded-2xl bg-center bg-contain bg-no-repeat  duration-500'></div>
-					{/* Left Arrow */}
+
 					<div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%]  text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
 						<BsChevronCompactLeft onClick={prevSlide} size={30} />
 					</div>
-					{/* Right Arrow */}
+
 					<div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
 						<BsChevronCompactRight onClick={nextSlide} size={30} />
 					</div>

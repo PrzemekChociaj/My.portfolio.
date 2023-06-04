@@ -1,92 +1,83 @@
 {
-    "Greeting": {
-        "1":  "Cześć! Nazywam się"
-    },
-    "Name": {
-"1": "Przemysław Chociaj"
+	"Greeting": {
+		"1": "Cześć! Nazywam się"
+	},
+	"Name": {
+		"1": "Przemysław Chociaj"
+	},
 
-    },
+	"Introduction": {
+		"1": "Jestem początkującym JavaScript Developerem."
+	},
 
-    "Introduction": {
-        "1": "Jestem początkującym JavaScript Developerem."
+	"Specialization": {
+		"1": " Jako początkujący front-end developer specjalizuję się w tworzeniu responsywnych stron internetowych przy użyciu React.js. Tworze dynamiczne i użytkownikowi przyjazne interfejsy. Posiadam solidne podstawy w zakresie HTML, CSS i JavaScript, jednocześnie stale poszerzam swoją wiedzę i umiejętności w świecie tworzenia stron internetowych. Cenię sobie pracę w zespołach, a także chętnie podejmuję nowe wyzwania, które pozwolą mi rozwijać moje umiejętności."
+	},
 
-    },
+	"Projects": {
+		"1": "Projekty"
+	},
 
-    "Specialization": {
-        "1": 
-       " Jako początkujący front-end developer specjalizuję się w tworzeniu responsywnych stron internetowych przy użyciu React.js. Tworze dynamiczne i użytkownikowi przyjazne interfejsy. Posiadam solidne podstawy w zakresie HTML, CSS i JavaScript, jednocześnie stale poszerzam swoją wiedzę i umiejętności w świecie tworzenia stron internetowych. Cenię sobie pracę w zespołach, a także chętnie podejmuję nowe wyzwania, które pozwolą mi rozwijać moje umiejętności."
-    },
+	"About": {
+		"1": "O mnie"
+	},
 
-    "Projects": {
+	"secondIntroduction": {
+		"1": "Cześć! Jestem Przemek"
+	},
 
-        "1": "Projekty"
-        },
-        
-        
+	"Testimonials": {
+		"1": "Referencje"
+	},
 
-        "About" : {
+	"Testimonial": {
+		"1": "Co inni ludzie mówią:"
+	},
 
-            "1": "O mnie"
-        },
+	"Home": {
+		"1": "Strona Główna"
+	},
+	"Check": {
+		"1": "Sprawdź moje projekty:"
+	},
 
-        "secondIntroduction": {
-            "1": "Cześć! Jestem Przemek"
-        },
+	"Skills": {
+		"1": "Umiejętności"
+	},
 
-        "Testimonials": {
-            "1": "Referencje"
-        },
+	"Contact": {
+		"1": "Kontakt"
+	},
 
-        "Testimonial" :{
-            "1": "Co inni ludzie mówią:"
-        
-        },
-  
+	"AboutMe": {
+		"1": "Mam 26 lat. Ukończyłem Technikum Informatyczne SCI w Szczecinie. Po zdobyciu tytułu licencjata na Uniwersytecie Szczecińskim stwierdziłem, że kontynuowanie swojej drogi zawodowej w tym kierunku nie ma dalszego sensu, więc postanowiłem wrócić do mojego hobby - programowania. Od lipca 2022 roku poświęciłem swój wolny czas na nauke Javascriptu oraz Reacta. Ukończyłem kurs na Udemy oraz stworzyłem pare projektów, które zaprezentuje poniżej. Interesuję się ogólnopojętym sportem oraz muzyką. Jedną z moich pasji jest produkcja podkładów muzycznych. Chociaż nie mam jeszcze doswiadczenia w branży, jestem zmotywowany do nauki i rozwoju swoich umiejętności. Nie boję się wyzwań i z chęcia podejmę się nowych projektów, aby zdobyć praktyczne doświadczenie. Jestem otwarty na feedback i skłonny do pracy w zespole."
+	},
 
-    "Home" :{
-        "1": "Strona Główna"
+	"SkillsIntro": {
+		"1": "Do swoich projektów wykorzystywałem:"
+	},
 
+	"Mark": {
+		"1": "tralaladasdsad"
+	},
 
-    },
-    "Check": {
-        "1": "Sprawdź moje projekty:"
-    },
+	"Form": {
+		"1": "Napisz do mnie tutaj lub na przemyslawchociaj@gmail.com"
+	},
 
-    "Skills" :{
-        "1": "Umiejętności"
+	"translation": {
+		"elonMusk": {
+			"authorText": "Gdyby tacy ludzie jak Przemek pracowali w SpaceX od samego początku, już dawno byśmy skolonizowali Marsa."
+		},
+		"markZuckerberg": {
+			"authorText": "Przemek odpowiada za 80% sukcesu Facebooka. Firma nie osiągneła by takich wyników gdyby nie jego pomysły."
+		},
+		"larryPage": {
+			"authorText": "Przemysław zrewolucjonizował sposób tworzenia stron. Obecnie prawie każdy wzoruje się na jego pomysłach"
+		}
+	},
 
-
-    },
-
-
-    "Contact" :{
-        "1": "Kontakt"
-
-
-    },
-
-
-    "AboutMe" :{
-
-  "1": "Mam 26 lat. Ukończyłem Technikum Informatyczne SCI w Szczecinie. Po zdobyciu tytułu licencjata na Uniwersytecie Szczecińskim stwierdziłem, że kontynuowanie swojej drogi zawodowej w tym kierunku nie ma dalszego sensu, więc postanowiłem wrócić do mojego hobby - programowania. Od lipca 2022 roku poświęciłem swój wolny czas na nauke Javascriptu oraz Reacta. Ukończyłem kurs na Udemy oraz stworzyłem pare projektów, które zaprezentuje poniżej. Interesuję się ogólnopojętym sportem oraz muzyką. Jedną z moich pasji jest produkcja podkładów muzycznych. Chociaż nie mam jeszcze doswiadczenia w branży, jestem zmotywowany do nauki i rozwoju swoich umiejętności. Nie boję się wyzwań i z chęcia podejmę się nowych projektów, aby zdobyć praktyczne doświadczenie. Jestem otwarty na feedback i skłonny do pracy w zespole."
-    
-    },
-
-    "SkillsIntro": {
-        "1": "Do swoich projektów wykorzystywałem:"
-    },
-
-    "Mark": {
-        "1": "tralaladasdsad"
-    },
-
-
-    "Form": {
-        "1": "Napisz do mnie tutaj lub na przemyslawchociaj@gmail.com"
-    },
-
-    "Submit": {
-
-        "1": "Wyślij"
-    }
+	"Submit": {
+		"1": "Wyślij"
+	}
 }
