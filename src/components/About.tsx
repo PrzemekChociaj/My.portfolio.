@@ -2,9 +2,34 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Profilowe from '../assets/Profilowe.jpg'
+import { useMediaQuery } from '@mui/material';
 
 const About = () => {
 	const [move, setMove] = useState();
+
+	const isDesktop = useMediaQuery('(min-width:600px)');
+
+	const variants = isDesktop
+	? {
+ initial: {
+	opacity:  0,
+	x: -300,
+ },
+ whileInView: {
+opacity: 1, x:0,
+ },
+}
+ : {
+	initial: {
+		opacity: 0,
+		x:-30
+	},
+	whileInView: {
+opacity: 1,
+x: 0
+	}
+ }
+
 
 	const { t, i18n } = useTranslation();
 
@@ -12,8 +37,9 @@ const About = () => {
 		<div id='about' className='w-full h-screen bg-[#252A34] text-gray-300'>
 			<div className='flex flex-col justify-center items-center w-full h-full'>
 				<motion.div
-					initial={{ opacity: 0, x: 300 }}
-					whileInView={{ opacity: 1, x: 0 }}
+				variants={variants}
+				initial={variants.initial}
+				whileInView={variants.whileInView}
 					transition={{ delay: 0.4, duration: 1 }}>
 					<div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
 						<div className='sm:text-right pb-8 pl-4'>
@@ -23,20 +49,21 @@ const About = () => {
 						</div>
 					</div>
 					<div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-						<div className='sm:text-right text-4xl font-bold'>
+						<div className=' text-4xl font-bold'>
 							<p>{t('secondIntroduction.1')} </p>
 							<motion.img
-								initial={{ opacity: 0, x: -600 }}
-								whileInView={{ opacity: 1, x: 0 }}
+					variants={variants}
+					initial={variants.initial}
+					whileInView={variants.whileInView}
 								transition={{ delay: 0.4, duration: 1 }}
-								className='max-w-[240px] relative top-5  sm:left-24 lg:left-52 border-2 rounded-full    border-solid '
+								className='max-w-[240px] relative top-5  left-24 sm:left-52 border-2 rounded-full    border-solid '
 								src={Profilowe}
 								alt=''
 							/>
 						</div>
 
 						<div>
-							<p className='text-white opacity-80'>{t('AboutMe.1')}</p>
+							<p className='text-white opacity-80 '>{t('AboutMe.1')}</p>
 						</div>
 					</div>
 				</motion.div>

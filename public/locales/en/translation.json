@@ -1,99 +1,95 @@
 {
-    "Greeting": {
-        "1":  "Hi! My name is"
-    },
-    "Name": {
-"1": "Przemysław Chociaj"
-
-    },
-
-    "Introduction": {
-        "1": "I'am beginner React JavaScript Developer."
-
-    },
-
-    "Specialization": {
-        "1": 
-       " As a budding front-end developer, I specialize in crafting responsive websites using React.js. My passion lies in creating dynamic and user-friendly interfaces that deliver seamless user experiences. With a solid foundation in HTML, CSS, and JavaScript, I am continuously expanding my knowledge and skills in the ever-evolving field of web development. I thrive in collaborative environments and eagerly embrace new challenges to enhance my expertise."
-    },
-
-
-"Projects": {
-
-"1": "Projects"
-},
-
-"Testimonials": {
-    "1": "Testimonials"
-},
-       
-
-"About" : {
-
-    "1": "About"
-},
-
-"secondIntroduction": {
-    "1": "Hi, Im Przemek!"
-},
-
-
-
-"Home" :{
-"1": "Home"
-
-
-},
-
-
-"Skills" :{
-"1": "Skills"
-
-
-},
-
-
-"Contact" :{
-"1": "Contact"
+	"Greeting": {
+		"1": "Hi! My name is"
+	},
+	"Name": {
+		"1": "Przemysław Chociaj"
+	},
+	"Introduction": {
+		"1": "I'am beginner React JavaScript Developer."
+	},
+	"Specialization": {
+		"1": " As a budding front-end developer, I specialize in crafting responsive websites using React.js. My passion lies in creating dynamic and user-friendly interfaces that deliver seamless user experiences. With a solid foundation in HTML, CSS, and JavaScript, I am continuously expanding my knowledge and skills in the ever-evolving field of web development. I thrive in collaborative environments and eagerly embrace new challenges to enhance my expertise."
+	},
+	"Projects": {
+		"1": "Projects"
+	},
+	"Testimonials": {
+		"1": "Testimonials"
+	},
+	"About": {
+		"1": "About"
+	},
+	"secondIntroduction": {
+		"1": "Hi, Im Przemek!"
+	},
+	"Home": {
+		"1": "Home"
+	},
+	"Skills": {
+		"1": "Skills"
+	},
+	"Contact": {
+		"1": "Contact"
+	},
+	"AboutMe": {
+		"1": "I am 26 years old. I graduated from the SCI Technical School of IT in Szczecin. after obtaining a bachelor's degree at the University of Szczecin in the field of Internal Security I found that the continuation of my career path in this direction does not make any sense, so I decided to return to my hobby - programming. From July In 2022, I devoted my free time to learning Javascript and React. I completed a course on Udemy and created a few projects which I will present below. My other hobbies are: sports and music. One of my passions is music production. Although I don't have experience in the industry yet, I am motivated to learn and develop my skills. Im not afraid of any challenges and I will gladly take on new projects to gain practical experience. I am open to feedback and inclined to work in a team."
+	},
+	"SkillsIntro": {
+		"1": "To my projects i used:"
+	},
+	"Form": {
+		"1": "Contact with me via form below or via email  przemyslawchociaj@gmail.com"
+	},
+	"Check": {
+		"1": "Check out my projects:"
+	},
+	"Testimonial": {
+		"1": "What other people say:"
+	},
+	"Submit": {
+		"1": "Submit"
+	},
 
 
-},
+	"Below": {
 
-"AboutMe": {
+		"1": "Below you can see some of the projects I have created:"
+	},
 
-    "1": "I am 26 years old. I graduated from the SCI Technical School of IT in Szczecin. after obtaining a bachelor's degree at the University of Szczecin in the field of Internal Security I found that the continuation of my career path in this direction does not make any sense, so I decided to return to my hobby - programming. From July In 2022, I devoted my free time to learning Javascript and React. I completed a course on Udemy and created a few projects which I will present below. My other hobbies are: sports and music. One of my passions is music production. Although I don't have experience in the industry yet, I am motivated to learn and develop my skills. Im not afraid of any challenges and I will gladly take on new projects to gain practical experience. I am open to feedback and inclined to work in a team."
 
-},
+		"pomodoroDesc": "Pomodoro is an application created in React JS that helps you manage your time and increase productivity through the popular pomodoro technique. This technique involves dividing time into short intervals, called tomatoes, with breaks in between. The Pomodoro app offers a simple yet intuitive user interface that allows you to easily use the pomodoro technique. After starting the application, the user can set the duration of one tomato. The typical time is 25 minutes, but the user can adjust this parameter to their individual preferences. After setting the time, the user can start a pomodoro session. During a pomodoro session, the app displays a timer that counts down the duration of the tomato. After the tomato is finished, the application automatically goes into break mode. The pause time can also be adjusted by the user, but is usually around 5 minutes. The application informs the user when the break starts and displays the break timer.",
+	
+	
+	
+	
+	"musicShopDesc": 
+	
+	 
+		 "Music Shop is an advanced e-commerce application built in React JS that allows users to browse and purchase various music albums. The application also offers registration and login functions as well as a shopping cart, which provides users with a convenient and personalized shopping experience. After launching the application, the user has the option to browse through various music categories such as Metal, Hip Hop, Pop, etc. He can also use filtering tools and sorting to easily find the products that interest him. When a user finds a product they are interested in, they can go to the product page where there are detailed information such as description, price, photos. The Music Shop application offers a simple registration form where the user can enter their details such as name, surname, email address and password. After registration, the user can log in to his account using his e-mail address and password. After logging in, the user can add products to the shopping cart. The user can also adjust the number of products in the basket and remove products if needed. The Music Shop app also provides a convenient payment process. The user can connect his credit card. After placing an order, the user receives a purchase confirmation and delivery information.",
+	
+	
+	"portfolioDesc": 
+	
+	 
+		"I created the portfolio using Tailwind, React Icons, Framer motion, getForm and other libraries/hooks. I tried to make the website fully responsive and transparent. I used solid colors to give the user a pleasant visual experience. The website is in two languages: Polish and English. It contains a contact form and all the necessary information about my skills.",
+	
 
-"Mark": {
-    "1": "tralala"
-},
-
-"SkillsIntro": {
-    "1": "To my projects i used:"
-},
-
-"Form": {
-    "1": "Contact with me via form below or via email  przemyslawchociaj@gmail.com"
-},
-
-"Check": {
-    "1": "Check out my projects:"
-},
-
-"Testimonial" :{
-    "1": "What other people say:"
-
-},
-    
-
-"Submit": {
-
-    "1": "Submit"
+	"Arrays": [
+		{
+			"authorIMG": "https://pyxis.nymag.com/v1/imgs/af1/5fe/5950f92d849fee81b041167ece011f911a-elon-musk.rsquare.w330.jpg",
+			"authorText": "If people like Przemek had been working at SpaceX from the very beginning, we would have colonized Mars a long time ago.",
+			"authorName": "Elon Musk"
+		},
+		{
+			"authorIMG": "https://imageio.forbes.com/specials-images/imageserve/5c76b7d331358e35dd2773a9/0x0.jpg?format=jpg&crop=4401,4401,x0,y0,safe&height=416&width=416&fit=bounds",
+			"authorText": "Przemek is responsible for 80% of Facebook success. The company would not have achieved such results without his ideas.",
+			"authorName": "Mark Zuckerberg"
+		},
+		{
+			"authorIMG": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg",
+			"authorText": "Przemysław revolutionized the way of creating websites. Nowadays, almost everyone follows his ideas.",
+			"authorName": "Larry Page"
+		}
+	]
 }
-
-}
-
-
-
-

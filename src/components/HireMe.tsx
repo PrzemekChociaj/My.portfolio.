@@ -2,9 +2,13 @@ import React from 'react';
 import Circular from '../assets/circular.png';
 import { Link } from 'react-router-dom';
 import ReactCurvedText from 'react-curved-text';
+
+import { motion } from 'framer-motion';
 const HireMe = () => {
 	return (
-		<div className='  hidden lg:flex fixed left-4 bottom-4 items-center justify-center overflow-hidden'>
+		<motion.div initial={{ opacity: 0}}
+    whileInView={{ opacity: 1}}
+    transition={{ delay: 1, duration:2 }} className='  hidden lg:flex fixed left-4 bottom-4 items-center justify-center overflow-hidden'>
 			<div className='w-48 h-auto flex items-center justify-center relative'>
             <ReactCurvedText
             width={300}
@@ -27,7 +31,7 @@ const HireMe = () => {
 					Hire me!
 				</a>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
