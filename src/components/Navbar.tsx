@@ -42,7 +42,7 @@ const Navbar = () => {
 	};
 	return (
 		<div className='fixed w-full h-[100px] flex justify-center bg-[#252A34] bg-opacity-75  items-center px-4 text-gray-100 z-50'>
-			<div className=' font-extrabold text-xl absolute left-0 ml-5   text-[#FF2E63]'>
+			<div className=' font-extrabold text-xs sm:text-xl absolute left-0 ml-5   text-[#FF2E63]'>
 				Przemysław Chociaj
 			</div>
 
@@ -64,10 +64,10 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className='hover:text-[#FF2E63] duration-300'>
-					<Link to='testimonials' smooth={true} duration={500}>
+						<Link to='testimonials' smooth={true} duration={500}>
 							{t('Testimonials.1')}
 						</Link>
-						</li>
+					</li>
 					<li className='hover:text-[#FF2E63] duration-300'>
 						<Link to='work' smooth={true} duration={500}>
 							{t('Projects.1')}
@@ -130,7 +130,11 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className='py-6 text-4xl hover:text-[#FF2E63] duration-300'>
-						<Link onClick={handleClick} to='testimonials' smooth={true} duration={500}>
+						<Link
+							onClick={handleClick}
+							to='testimonials'
+							smooth={true}
+							duration={500}>
 							{t('Testimonials.1')}
 						</Link>
 					</li>

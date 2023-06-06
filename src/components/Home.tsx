@@ -71,13 +71,13 @@ const Home = () => {
 						initial={variants.initial}
 						whileInView={variants.whileInView}
 						transition={{ delay: 0.4, duration: 1 }}
-						className=' text-[#FF2E63] text-3xl  font-bold tracking-wide'>
+						className=' text-[#FF2E63] text-sm sm:text-4xl  font-bold tracking-wide'>
 						{t('Greeting.1')}
 					</motion.p>
-					<h1 className=' max-w-[1000px] text-4xl mb-2 sm:text-6xl font-bold text-[#ffffff] tracking-wide'>
+					<h1 className=' max-w-[1000px] text-sm sm:text-4xl mb-2  font-bold text-[#ffffff] tracking-wide'>
 						{t('Name.1')}
 					</h1>
-					<h2 className='text-4xl sm:text-5xl font-bold-400 text-[#ffffff] tracking-wide'>
+					<h2 className='text-sm sm:text-4xl font-bold-400 text-[#ffffff] tracking-wide'>
 						Aspirant {text}
 						<Cursor
 							cursorBlinking='false'
@@ -90,13 +90,13 @@ const Home = () => {
 						initial={variants.initial}
 						whileInView={variants.whileInView}
 						transition={{ delay: 0.4, duration: 1 }}
-						className='text-[#ffffff] py-4 max-w tracking-wide opacity-80'>
+						className='text-[#ffffff] text-sm sm:text-xl py-4 max-w tracking-wide opacity-80'>
 						{t('Specialization.1')}
 					</motion.p>
 					<div>
 						<button
 							onClick={handleClick}
-							className=' text-[#ffffff] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FF2E63] hover:text-[#ffffff] hover:border-[#ffffff]'>
+							className=' text-[#ffffff] h-[20px]  sm:h-[70px] group border-2 px-6 py-3 my-2 text-xs sm:text-xl flex items-center hover:bg-[#FF2E63] hover:text-[#ffffff] hover:border-[#ffffff]'>
 							{t('Projects.1')}
 							<span className='group-hover:rotate-90 duration-200'>
 								<HiArrowNarrowRight className='ml-3' />
@@ -104,7 +104,6 @@ const Home = () => {
 						</button>
 					</div>
 				</motion.div>
-			
 			</div>
 		</div>
 	);
