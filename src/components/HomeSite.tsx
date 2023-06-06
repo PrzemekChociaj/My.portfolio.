@@ -21,8 +21,9 @@ const HomeSite = () => {
 			<Home  />
 			<About />
 			<Skills />
-			<TestimonialSlider />
+		
 			<Work />
+			<TestimonialSlider />
 			<Contact />
 			
 		

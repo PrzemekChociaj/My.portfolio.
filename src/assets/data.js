@@ -92,29 +92,28 @@ export const MusicShop = [
 	},
 ];
 
+
 export const Arrays = [
 	{
-		authorIMG:
-			'https://pyxis.nymag.com/v1/imgs/af1/5fe/5950f92d849fee81b041167ece011f911a-elon-musk.rsquare.w330.jpg',
-		authorText:
-			'If people like Przemek had been working at SpaceX from the very beginning, we would have colonized Mars a long time ago.',
-		authorName: 'Elon Musk',
+		"authorIMG": "https://pyxis.nymag.com/v1/imgs/af1/5fe/5950f92d849fee81b041167ece011f911a-elon-musk.rsquare.w330.jpg",
+		"authorText": "dada",
+		"authorName": "Elon Musk"
 	},
 	{
-		authorIMG:
-			'https://imageio.forbes.com/specials-images/imageserve/5c76b7d331358e35dd2773a9/0x0.jpg?format=jpg&crop=4401,4401,x0,y0,safe&height=416&width=416&fit=bounds',
-		authorText:
-			'Przemek is responsible for 80% of Facebook success. The company would not have achieved such results without his ideas.',
-		authorName: 'Mark Zuckerberg',
+		"authorIMG": "https://imageio.forbes.com/specials-images/imageserve/5c76b7d331358e35dd2773a9/0x0.jpg?format=jpg&crop=4401,4401,x0,y0,safe&height=416&width=416&fit=bounds",
+		"authorText": "Przemek is responsible for 80% of Facebook success. The company would not have achieved such results without his ideas.",
+		"authorName": "Mark Zuckerberg"
 	},
 	{
-		authorIMG:
-			'https://upload.wikimedia.org/wikipedia/commons/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg',
-		authorText:
-			'Przemysław revolutionized the way of creating websites. Nowadays, almost everyone follows his ideas.',
-		authorName: 'Larry Page',
-	},
-];
+		"authorIMG": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg",
+		"authorText": "Przemysław revolutionized the way of creating websites. Nowadays, almost everyone follows his ideas.",
+		"authorName": "Larry Page"
+	}
+]
+
+
+
+
 
 export const projectContent = [
 	{
@@ -150,3 +149,5 @@ export const projects = [
 		image: portfolio,
 	},
 ];
+
+
