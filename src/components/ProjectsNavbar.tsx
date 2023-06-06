@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaBeer, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import {ImHome3} from 'react-icons/im'
+import { ImHome3 } from 'react-icons/im';
 import England from '../assets/England.png';
 import Poland from '../assets/Poland.png';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -49,7 +49,7 @@ const ProjectsNavbar = () => {
 	};
 	return (
 		<div className=' w-full h-[100px] flex justify-center bg-[#252A34]  items-center px-4 text-gray-100 z-50'>
-			<div className=' font-extrabold text-xl absolute left-0 ml-5   text-[#FF2E63]'>
+			<div className='  font-extrabold text-xs sm:text-xl absolute left-0 ml-5   text-[#FF2E63]'>
 				Przemysław Chociaj
 			</div>
 
@@ -73,18 +73,11 @@ const ProjectsNavbar = () => {
 				</button>
 			</div>
 			<div onClick={HomeNav} className='md:hidden z-10'>
-				{!navbar ? (
-					<ImHome3 className='cursor-pointer' />
-				) : null
-				}
+				{!navbar ? <ImHome3 className='cursor-pointer' /> : null}
 			</div>
 
 			<div>
-			
-
-				<div className='hidden lg:flex fixed flex-col top[35%] left-0 mt-[150px]'>
-					
-				</div>
+				<div className='hidden lg:flex fixed flex-col top[35%] left-0 mt-[150px]'></div>
 			</div>
 		</div>
 	);

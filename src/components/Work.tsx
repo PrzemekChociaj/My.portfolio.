@@ -8,7 +8,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 import { projectContent } from '../assets/data';
-import Harold from '../assets/Harold.png';
 import Portfolio from '../assets/Portfoliozdj.png';
 import musicShop from '../assets/musicshop2.jpg';
 import pomodoro from '../assets/pomodoro1.jpg';
@@ -66,10 +65,13 @@ const Work = () => {
 	return (
 		<div id='work' className=' bg-[#252A34] h-2000px'>
 			<div className='max-w-[1240px] text-center  mx-auto md:pl-20 p-4 py-16'>
-				<h1 className='text-4xl font-bold text-center border-[#FF2E63] inline  border-b-4 text-white'>
+				<h1 className=' text-2xl sm:text-4xl font-bold text-center border-[#FF2E63] inline  border-b-4 text-white'>
 					{t('Projects.1')}
 				</h1>
-				<p className='text-center text-white py-8'> {t('Below.1')}</p>
+				<p className='text-center text-sm sm:text-xl  text-white py-8'>
+					{' '}
+					{t('Below.1')}
+				</p>
 				<div className='grid md:grid-cols-1 gap-12'>
 					<motion.div
 						variants={rightVariants}
