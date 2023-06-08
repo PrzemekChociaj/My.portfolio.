@@ -1,7 +1,4 @@
 {
-
-
-    
 	"Greeting": {
 		"1": "Cześć! Nazywam się"
 	},
@@ -34,7 +31,7 @@
 	},
 
 	"Testimonial": {
-		"1": "Co inni ludzie mówią:"
+		"1": "Co mowią inni ludzie:"
 	},
 
 	"Home": {
@@ -60,10 +57,6 @@
 		"1": "Do swoich projektów wykorzystywałem:"
 	},
 
-	"Mark": {
-		"1": "tralaladasdsad"
-	},
-
 	"Form": {
 		"1": "Napisz do mnie tutaj lub na przemyslawchociaj@gmail.com"
 	},
@@ -73,33 +66,16 @@
 	},
 
 	"Below": {
-
 		"1": "Poniżej możesz zobaczyć projekty, które stworzyłem:"
 	},
 
+	"pomodoroDesc": "Pomodoro jest to aplikacja stworzona w React JS, która pomaga w zarządzaniu czasem i zwiększaniu produktywności poprzez popularną technikę pomodoro. Technika ta polega na podziale czasu na krótkie interwały, zwane pomidorami, z przerwami pomiędzy nimi.Aplikacja Pomodoro oferuje prosty, ale intuicyjny interfejs użytkownika, który umożliwia łatwe korzystanie z techniki pomodoro. Po uruchomieniu aplikacji, użytkownik może ustawić czas trwania jednego pomidora. Typowy czas to 25 minut, ale użytkownik ma możliwość dostosowania tego parametru do swoich indywidualnych preferencji. Po ustawieniu czasu, użytkownik może rozpocząć sesję pomodoro.Podczas sesji pomodoro, aplikacja wyświetla licznik czasu, który odlicza czas trwania pomidora. Po zakończeniu pomidora, aplikacja automatycznie przechodzi w tryb przerwy. Czas przerwy również może być dostosowany przez użytkownika, ale zazwyczaj wynosi około 5 minut. Aplikacja informuje użytkownika o rozpoczęciu przerwy i wyświetla licznik czasu przerwy.",
 
- "pomodoroDesc": 
+	"musicShopDesc": "Music Shop to zaawansowana aplikacja e-commerce stworzona w React JS, która umożliwia użytkownikom przeglądanie i zakup różnych albumów muzycznych. Aplikacja oferuje również funkcje rejestracji i logowania, a także koszyk zakupowy, co zapewnia użytkownikom wygodne i spersonalizowane doświadczenie zakupowe.Po uruchomieniu aplikacji, użytkownik ma możliwość przeglądania różnych kategorii muzycznych, takich jak Metal, Hip Hop, Pop itp. Może również używać narzędzi do filtrowania i sortowania, aby łatwo znaleźć interesujące go produkty. Kiedy użytkownik znajdzie produkt, który go interesuje, może przejść do strony produktu, gdzie znajdują się szczegółowe informacje, takie jak opis, cena, zdjęcia. Aplikacja Music Shop oferuje prosty formularz rejestracji, w którym użytkownik może podać swoje dane, takie jak imię, nazwisko, adres e-mail i hasło. Po zarejestrowaniu się, użytkownik może zalogować się do swojego konta za pomocą swojego adresu e-mail i hasła.Po zalogowaniu użytkownik ma możliwość dodawania produktów do koszyka zakupowego. Użytkownik może również dostosować ilość produktów w koszyku oraz usuwać produkty, jeśli tego potrzebuje. Aplikacja Music Shop zapewnia również wygodny proces płatności. Użytkownik może podlączyć swoją karte kredytową. Po złożeniu zamówienia użytkownik otrzymuje potwierdzenie zakupu oraz informacje dotyczące dostawy.",
 
- 
-	"Pomodoro jest to aplikacja stworzona w React JS, która pomaga w zarządzaniu czasem i zwiększaniu produktywności poprzez popularną technikę pomodoro. Technika ta polega na podziale czasu na krótkie interwały, zwane pomidorami, z przerwami pomiędzy nimi.Aplikacja Pomodoro oferuje prosty, ale intuicyjny interfejs użytkownika, który umożliwia łatwe korzystanie z techniki pomodoro. Po uruchomieniu aplikacji, użytkownik może ustawić czas trwania jednego pomidora. Typowy czas to 25 minut, ale użytkownik ma możliwość dostosowania tego parametru do swoich indywidualnych preferencji. Po ustawieniu czasu, użytkownik może rozpocząć sesję pomodoro.Podczas sesji pomodoro, aplikacja wyświetla licznik czasu, który odlicza czas trwania pomidora. Po zakończeniu pomidora, aplikacja automatycznie przechodzi w tryb przerwy. Czas przerwy również może być dostosowany przez użytkownika, ale zazwyczaj wynosi około 5 minut. Aplikacja informuje użytkownika o rozpoczęciu przerwy i wyświetla licznik czasu przerwy.",
+	"portfolioDesc": "Portfolio stworzyłem przy pomocy Tailwind, React Icons, Framer motion, getForm oraz innych bibliotek/hooków. Starałem się aby strona była w pełni responsywna oraz przejrzysta. Uzyłem jednolitych kolorów aby użytkownik miał przyjemne doznania wizualne. Strona jest w dwóch językach: polskim oraz angielskim. Zawiera formularz kontaktowy oraz wszelkie potrzebne informacje dotyczące moich umiejętności.",
 
-"musicShopDesc": 
-
- 
-	 "Music Shop to zaawansowana aplikacja e-commerce stworzona w React JS, która umożliwia użytkownikom przeglądanie i zakup różnych albumów muzycznych. Aplikacja oferuje również funkcje rejestracji i logowania, a także koszyk zakupowy, co zapewnia użytkownikom wygodne i spersonalizowane doświadczenie zakupowe.Po uruchomieniu aplikacji, użytkownik ma możliwość przeglądania różnych kategorii muzycznych, takich jak Metal, Hip Hop, Pop itp. Może również używać narzędzi do filtrowania i sortowania, aby łatwo znaleźć interesujące go produkty. Kiedy użytkownik znajdzie produkt, który go interesuje, może przejść do strony produktu, gdzie znajdują się szczegółowe informacje, takie jak opis, cena, zdjęcia. Aplikacja Music Shop oferuje prosty formularz rejestracji, w którym użytkownik może podać swoje dane, takie jak imię, nazwisko, adres e-mail i hasło. Po zarejestrowaniu się, użytkownik może zalogować się do swojego konta za pomocą swojego adresu e-mail i hasła.Po zalogowaniu użytkownik ma możliwość dodawania produktów do koszyka zakupowego. Użytkownik może również dostosować ilość produktów w koszyku oraz usuwać produkty, jeśli tego potrzebuje. Aplikacja Music Shop zapewnia również wygodny proces płatności. Użytkownik może podlączyć swoją karte kredytową. Po złożeniu zamówienia użytkownik otrzymuje potwierdzenie zakupu oraz informacje dotyczące dostawy.",
-
-
-"portfolioDesc": 
-
- 
-	 "Portfolio stworzyłem przy pomocy Tailwind, React Icons, Framer motion, getForm oraz innych bibliotek/hooków. Starałem się aby strona była w pełni responsywna oraz przejrzysta. Uzyłem jednolitych kolorów aby użytkownik miał przyjemne doznania wizualne. Strona jest w dwóch językach: polskim oraz angielskim. Zawiera formularz kontaktowy oraz wszelkie potrzebne informacje dotyczące moich umiejętności.",
-
-
-
-
-
-
-    "Arrays": [
+	"Arrays": [
 		{
 			"authorIMG": "https://pyxis.nymag.com/v1/imgs/af1/5fe/5950f92d849fee81b041167ece011f911a-elon-musk.rsquare.w330.jpg",
 			"authorText": "Gdyby tacy ludzie jak Przemek pracowali w SpaceX od samego początku to już dawno byśmy skolonizowali Marsa.",
@@ -117,5 +93,3 @@
 		}
 	]
 }
-
-

@@ -49,7 +49,7 @@ const Home = () => {
 		: {
 				initial: {
 					opacity: 0,
-					x: -20,
+					x: 0,
 				},
 				whileInView: {
 					opacity: 1,
@@ -71,7 +71,7 @@ const Home = () => {
 						initial={variants.initial}
 						whileInView={variants.whileInView}
 						transition={{ delay: 0.4, duration: 1 }}
-						className=' text-[#FF2E63] text-sm sm:text-4xl  font-bold tracking-wide'>
+						className=' text-[#FF2E63] text-sm sm:text-3xl  font-bold tracking-wide'>
 						{t('Greeting.1')}
 					</motion.p>
 					<h1 className=' max-w-[1000px] text-sm sm:text-4xl mb-2  font-bold text-[#ffffff] tracking-wide'>

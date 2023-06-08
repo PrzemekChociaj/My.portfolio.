@@ -43,7 +43,7 @@ const TestimonialSlider = () => {
 						setActiveIndex(e.realIndex);
 					}}
 					modules={[Pagination]}
-					className='md:h-96 h-[40rem]  max-w-3xl mt-24'>
+					className='ms:h-96 h-[20rem]  max-w-3xl mt-24'>
 					{translatedArray.map((item, index) => (
 						<SwiperSlide key={index}>
 							<div

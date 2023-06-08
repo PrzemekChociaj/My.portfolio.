@@ -56,7 +56,7 @@ function App({ t }) {
 				element={
 					<Projects
 						array={MusicShop}
-						title='Music Shop'
+						title='Music Shop // work in progress'
 						desc={musicShopDesc}
 					
 					/>

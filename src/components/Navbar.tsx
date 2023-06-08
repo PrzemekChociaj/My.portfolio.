@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import England from '../assets/England.png';
 import Poland from '../assets/Poland.png';
 import { motion, AnimatePresence } from 'framer-motion';
+import cv from '../assets/cv.pdf';
 import {
 	Link,
 	Button,
@@ -64,13 +65,13 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className='hover:text-[#FF2E63] duration-300'>
-						<Link to='testimonials' smooth={true} duration={500}>
-							{t('Testimonials.1')}
+						<Link to='work' smooth={true} duration={500}>
+							{t('Projects.1')}
 						</Link>
 					</li>
 					<li className='hover:text-[#FF2E63] duration-300'>
-						<Link to='work' smooth={true} duration={500}>
-							{t('Projects.1')}
+						<Link to='testimonials' smooth={true} duration={500}>
+							{t('Testimonials.1')}
 						</Link>
 					</li>
 					<li className='hover:text-[#FF2E63] duration-300'>
@@ -176,7 +177,7 @@ const Navbar = () => {
 						<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-indigo-700'>
 							<a
 								className='flex justify-between items-center w-full text-gray-300'
-								href='/'>
+								href='/pdf/cv.pdf'>
 								CV <BsFillPersonLinesFill size={30} />
 							</a>
 						</li>
