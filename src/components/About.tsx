@@ -23,7 +23,7 @@ const About = () => {
 		: {
 				initial: {
 					opacity: 0,
-					x: -30,
+					x: -0,
 				},
 				whileInView: {
 					opacity: 1,
@@ -42,15 +42,15 @@ const About = () => {
 					whileInView={variants.whileInView}
 					transition={{ delay: 0.4, duration: 1 }}>
 					<div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-						<div className='sm:text-right pb-8 pl-4'>
-							<p className=' text-xl sm:text-4xl font-bold inline border-b-4    border-[#FF2E63]'>
+						<div className='sm:text-right  pb-8 pl-4'>
+							<p className=' text-xl sm:text-4xl text font-bold inline border-b-4    border-[#FF2E63]'>
 								{t('About.1')}
 							</p>
 						</div>
 					</div>
 					<div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 						<div className=' text-xl sm:text-3xl font-bold'>
-							<p className='sm:ml-24'>{t('secondIntroduction.1')} </p>
+							<p className='sm:ml-24 '>{t('secondIntroduction.1')} </p>
 							<motion.img
 								variants={variants}
 								initial={variants.initial}

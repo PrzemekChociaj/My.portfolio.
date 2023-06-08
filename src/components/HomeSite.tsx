@@ -8,6 +8,7 @@ import Home from './Home';
 import AnimCursor from './AnimCursor';
 import TestimonialSlider from './TestimonialSlider';
 import HireMe from './HireMe';
+import NextSection from './NextSection';
 
 
 
@@ -17,6 +18,7 @@ const HomeSite = () => {
 		
         	<AnimCursor />
 			<HireMe />
+			<NextSection />
 			<Navbar  />
 			<Home  />
 			<About />

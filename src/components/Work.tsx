@@ -31,7 +31,7 @@ const Work = () => {
 		: {
 				initial: {
 					opacity: 0,
-					x: -30,
+					x: -0,
 				},
 				whileInView: {
 					opacity: 1,
@@ -43,7 +43,7 @@ const Work = () => {
 		? {
 				initial: {
 					opacity: 0,
-					x: 300,
+					x: 200,
 				},
 				whileInView: {
 					opacity: 1,
@@ -53,7 +53,7 @@ const Work = () => {
 		: {
 				initial: {
 					opacity: 0,
-					x: 20,
+					x: 0,
 				},
 				whileInView: {
 					opacity: 1,
