@@ -21,7 +21,7 @@ const Home = () => {
 	const handleClick = () => {
 		const element = document.getElementById('work');
 		if (element) {
-			element.scrollIntoView({ behavior: 'smooth' });
+			element.scrollIntoView({ behavior: 'instant' });
 		}
 	};
 
